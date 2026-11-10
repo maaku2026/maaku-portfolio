@@ -9,7 +9,7 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "build:pages": "tsc --noEmit && vite build --base=/maaku-portfolio/",
-    "deploy": "npm run build:pages && gh-pages -d dist --dot"
+    "deploy": "npm run build:pages && gh-pages -d dist --nojekyll"
   },
   "dependencies": {
     "framer-motion": "^12.23.0",
